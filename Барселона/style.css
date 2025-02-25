@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0))
+    no-repeat;
+}
+header ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 700;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  margin-top: 15px;
+}
+.fon {
+  background: url(./img/WhatsApp\ Image\ 2025-02-03\ at\ 22.05.06.jpeg) center
+    top 1px / cover no-repeat;
+  height: 800px;
+}
+.welcom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.btn-welcom {
+  width: 200px;
+  height: 60px;
+  margin-top: 450px;
+  border: 2px white solid;
+  color: white;
+  border-radius: 20px;
+  background: 0, 0, 0, 0;
+  cursor: pointer;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 700;
+}
+.container-welcom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.text-welcom {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out, padding 0.5s;
+  color: white;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 0 10px; /* Убираем вертикальные отступы в скрытом состоянии */
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 700;
+}
+.show {
+  max-height: 200px; /* Увеличиваем высоту для раскрытия */
+  opacity: 1;
+  padding: 10px; /* Добавляем отступы */
+}
+.container-lamin {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.img-profile {
+  width: 400px;
+  height: 400px;
+  background: url(./img/Lamine-Yamal.jpeg) center / cover no-repeat;
+  border-radius: 10px;
+}
+.text-plofile {
+  margin-top: 50px;
+  width: 800px;
+}
+.text-plofile h1 {
+  font-size: 30px;
+  font-family: "Noto Sans";
+  font-weight: 700;
+}
+.text-plofile p {
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  margin-top: 20px;
+}
+.levan {
+  background: url(./img//d17d4b8a231255d32009959f403c5cb9.jpg) center / cover
+    no-repeat;
+}
+.rafinha {
+  background: url(./img/i.webp) center / cover no-repeat;
+}
+footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: #2d2d2d;
+}
+footer p {
+  font-size: 14px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  color: white;
+}
